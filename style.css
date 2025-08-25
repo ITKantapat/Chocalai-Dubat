@@ -1,5 +1,5 @@
 .desktop {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
   display: grid;
   justify-items: center;
   align-items: start;
@@ -9,7 +9,7 @@
 }
 
 .desktop .overlap-group-wrapper {
-  background-color: #ffffff;
+  background-color: rgba(255, 255, 255, 1);
   overflow: hidden;
   width: 939px;
   height: 1030px;
