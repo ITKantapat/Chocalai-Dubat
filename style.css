@@ -1,5 +1,17 @@
 .desktop {
-  background-color: #CCF2FF;
+  background-color: #ccf2ff !important; /* บังคับใช้สีพื้นหลัง */
+  display: grid;
+  justify-items: center;
+  align-items: start;
+  width: 100vw;
+  min-height: 100vh;
+  height: 100vh; /* ใช้ 100vh เพื่อให้เต็มความสูงหน้าจอ */
+  margin: 0; /* ลบ margin ออก */
+  padding: 0; /* ลบ padding ออก */
+  box-sizing: border-box; /* ปรับ box-sizing */
+}
+.desktop {
+  background-color: #ccf2ff;
   display: grid;
   justify-items: center;
   align-items: start;
@@ -9,7 +21,7 @@
 }
 
 .desktop .overlap-group-wrapper {
-  background-color: #CCF2FF;
+  background-color: #ccf2ff;
   overflow: hidden;
   width: 939px;
   height: 1030px;
